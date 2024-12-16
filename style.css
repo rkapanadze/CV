@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 14px;
+    color: #555;
+}
+
+header a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+
+/* Section Headers */
+.section h2 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #555; /* Darker and slightly thicker line */
+    padding-bottom: 5px;
+    font-weight: bold; /* Make the text bold for better visibility */
+}
+
+/* Job and Education */
+.edu-item, .job-item, .leadership-item {
+    margin-bottom: 15px;
+}
+
+.job-item h3, .edu-item h3 {
+    font-size: 18px;
+    color: #222;
+}
+
+.job-title {
+    font-size: 14px;
+    color: #0077cc; /* Existing blue color */
+    font-weight: bold; /* Make the job title bold */
+    margin-bottom: 8px;
+}
+
+.job-title .year {
+    font-weight: bold; /* Keep the year in normal weight */
+    color: #555; /* Slightly dark gray for contrast */
+}
+
+.location {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.year {
+    float: right;
+    font-weight: bold;
+    color: #888;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Skills */
+.section p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.skills-category {
+    margin-bottom: 5px;
+}
+
+.skills-category strong {
+    font-weight: bold; /* Keep category bold but no color */
+    color: inherit; /* Use the default text color */
+}
+/* Header styling */
+header p {
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-item {
+    font-weight: bold;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
