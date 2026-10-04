@@ -139,3 +139,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Print / PDF */
+@page { size: A4; margin: 10mm 12mm; }
+@media print {
+    body { background: #fff; padding: 0; line-height: 1.45; }
+    .cv-container { max-width: none; border: none; box-shadow: none; padding: 0; }
+    .job-item h3, .job-title, .section h2 { break-after: avoid; }
+    .job-item li, .edu-item { break-inside: avoid; }
+}
